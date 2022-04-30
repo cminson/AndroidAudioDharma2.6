@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="Dana"
+    android:keepScreenOn="true"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/donateView"
+
+        android:maxLines="20"
+        android:textSize="16sp"
+        android:text="Audio Dharma is a free service provided by the Insight Meditation Center in Redwood City, California. IMC is run solely by volunteers and does not require payment for any of its programs. Our financial support comes from the generosity of people who value what we do.\n\nIf you wish to donate click the button below. Or visit www.audiodharma.org and navigate to the Donate section."
+
+        android:layout_marginTop="25sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+
+        app:layout_constraintTop_toBottomOf="parent"
+        />
+
+    <Button
+        android:id="@+id/buttonDonate"
+        android:textAllCaps="false"
+        android:color="@color/iconColor"
+        android:background="@drawable/ic_donate"
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="25sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donateView"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

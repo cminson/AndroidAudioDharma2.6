@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/defaultphoto"
+
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginTop="8sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:textColor="@color/defaultTextColor"
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55sp"
+        android:layout_marginTop="15sp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/attribute1"
+        android:textStyle="normal"
+        android:textSize="10sp"
+        android:textColor="@color/defaultTextColor"
+
+        android:gravity="center"
+        android:layout_width="50sp"
+        android:layout_height="15sp"
+        android:layout_marginTop="18sp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <!--
+            android:textColor="@color/defaultTextColor"
+        android:background="#00FFFFFF"
+
+    -->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

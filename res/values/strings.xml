@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Audio Dharma</string>
+    <string name="search_hint">search</string>
+    <string name="title_activity_album_controller">AlbumController</string>
+    <string name="talk_player">Talk Player</string>
+    <string name="transcript">Transcript</string>
+    <string name="play_talks_in_sequence">Play talks in sequence</string>
+    <string name="separator">|</string>
+    <string name="donate">Donate</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="delete">Delete</string>
+    <string name="_10_999">10,999</string>
+</resources>
